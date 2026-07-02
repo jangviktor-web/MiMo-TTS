@@ -1,0 +1,8 @@
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class com.example.mimotts.network.** { *; }
+-keep class com.example.mimotts.data.** { *; }
+-dontwarn retrofit2.**
+-keep class retrofit2.** { *; }
+-dontwarn okhttp3.**
+-keep class okhttp3.** { *; }
